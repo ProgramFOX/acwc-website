@@ -301,6 +301,11 @@ fn rules_2020(session: Option<Session>) -> Template {
     Template::render("rules2020", &context(&session))
 }
 
+#[get("/rules/2021")]
+fn rules_2021(session: Option<Session>) -> Template {
+    Template::render("rules2021", &context(&session))
+}
+
 fn main() {
     let configuration = config::from_file("Config.toml").expect("failed to load config");
 
@@ -325,7 +330,8 @@ fn main() {
                 admin_action,
                 logout,
                 rules_2019,
-                rules_2020
+                rules_2020,
+                rules_2021
             ],
         )
         .launch();
