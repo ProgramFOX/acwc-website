@@ -78,8 +78,8 @@
                         player reaches 5.5 points the players are allowed to stop there.
                     </li>
                     <li>The number of rounds will be the base-2 logarithm of the number
-                        of participants, rounded down, plus two. So 33-64 players is 7 rounds,
-                        65-128 players is 8 rounds, etc.
+                        of participants, rounded down, plus two. So 32-63 players is 7 rounds,
+                        64-127 players is 8 rounds, etc.
                     </li>
                     <li>
                         Your seeding rating is equal to the average of your Antichess rating at September 1, 2021, 00:00 UTC
@@ -131,7 +131,7 @@
                         All 10 games must be played, since game scores may be used for tiebreakers.
                     </li>
                     <li>
-                        The winners of each pool will go on to face each other in the Grand Final. The second place players in each pool will go on to face each other in the Third Place Playoff.
+                        The winner of each pool of the Candidates round will play a 10-game Semifinal Match against the second place player in the opposite pool.
                     </li>
                     <li>
                         Ties will broken (in order) by:
@@ -148,8 +148,7 @@
             <li>Semifinal Matches
                 <ol type="1">
                     <li>
-                        The winner of each pool of the Candidates round will play a 10-game Semifinal Match against the second
-                        place player in the opposite pool to determine who will go on to the Final Match.
+                        The winners of each Semifinal match will go on to face each other in the Grand Final, and the losers will go on to face each other in the Third Place Playoff.
                     </li>
                     <li>
                         If there is no winner after 10 games, then an armageddon game will decide the winner.
@@ -158,8 +157,8 @@
             </li>
             <li>Final Matches
                 <ol type="1">
-                    <li>The winners of each pool of the Candidates round will play a 12-game Grand Final to determine the 2021 Antichess World Champion and Second Place.</li>
-                    <li>The second place players of each pool of the Candidates round will play a 12-game Third Place Playoff to determine Third Place and Fourth Place.</li>
+                    <li>The winners of each Semifinal match will play a 12-game Grand Final to determine the 2021 Antichess World Champion and Second Place.</li>
+                    <li>The losers of each Semifinal match will play a 12-game Third Place Playoff to determine third and fourth place.</li>
                     <li>If there is no winner after week 1, repeat.</li>
                     <li>If there is no winner after week 2, repeat.</li>
                     <li>If there is no winner after week 3, then an armageddon game will decide the winner.</li>
