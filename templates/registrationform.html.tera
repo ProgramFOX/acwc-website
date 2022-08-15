@@ -17,7 +17,7 @@
   <div>
     <p>To verify that you have read and understood the rules, please answer the following quiz below.</p>
     <div class="form-group">
-      To participate in the tournament, all new accounts must be created before:
+      To participate in the tournament, all new accounts must be created before:<br>
       <label><input type="radio" name="q1" value="1"> May 20th, 2022</label><br>
       <label><input type="radio" name="q1" value="2"> May 1st, 2021</label><br>
       <label><input type="radio" name="q1" value="3"> January 31st, 2020</label><br>
@@ -28,7 +28,7 @@
       <label><input type="radio" name="q2" value="1"> True</label> - <label><input type="radio" name="q2" value="0"> False</label>
     </div>
     <div class="form-group">
-      To participate in the tournament, you must play how many rated games of 3+?
+      To participate in the tournament, you must play how many rated games of 3+?<br>
       <label><input type="radio" name="q3" value="1"> None, any schmuck with an account is eligible!</label><br>
       <label><input type="radio" name="q3" value="2"> 20</label><br>
       <label><input type="radio" name="q3" value="3"> 100</label><br>
@@ -36,11 +36,11 @@
       <label><input type="radio" name="q3" value="4"> 1000</label>
     </div>
     <div class="form-group">
-      Who are this year's Tournament Directors? (There are 2)
-      <label><input type="checkbox" name="q4" value="1"> PepsiNGaming</label>
-      <label><input type="checkbox" name="q4" value="2"> TCF_Namelecc</label>
-      <label><input type="checkbox" name="q4" value="3"> Francis920</label>
-      <label><input type="checkbox" name="q4" value="4"> FlamoToolz</label>
+      Who are this year's Tournament Directors? (There are 2)<br>
+      <label><input type="checkbox" name="q4" value="1"> PepsiNGaming</label><br>
+      <label><input type="checkbox" name="q4" value="2"> TCF_Namelecc</label><br>
+      <label><input type="checkbox" name="q4" value="3"> Francis920</label><br>
+      <label><input type="checkbox" name="q4" value="4"> FlamoToolz</label><br>
   </div>
   <button type="submit" class="btn btn-primary mt-3 py-4" style="width:100%">Register for the 3+ WC</button>
 </form>
