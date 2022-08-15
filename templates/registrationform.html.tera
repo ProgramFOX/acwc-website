@@ -51,7 +51,7 @@ document.getElementById("regform").addEventListener("submit", (e) => {
   const q1a = document.querySelector('input[name="q1"]:checked')?.value;
   const q2a = document.querySelector('input[name="q2"]:checked')?.value;
   const q3a = document.querySelector('input[name="q3"]:checked')?.value;
-  const q4qs = [...document.querySelectorAll('input[name="q4"]:checked')].map(x => x.value).join(';')
+  const q4a = [...document.querySelectorAll('input[name="q4"]:checked')].map(x => x.value).join(';');
   const answers = q1a + ',' + q2a + ',' + q3a + ',' + q4a;
   if (btoa(answers) !== 'MSwwLDMsMTsz') {
     e.preventDefault();
