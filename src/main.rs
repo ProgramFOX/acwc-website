@@ -32,8 +32,8 @@ fn context<'a>(maybe_session: &'a Option<Session>) -> HashMap<&'static str, &'a 
 }
 
 fn registration_state() -> i32 {
-    let register_start = Utc.ymd(2021, 9, 26).and_hms(0, 0, 0);
-    let register_end = Utc.ymd(2021, 10, 8).and_hms(23, 59, 59);
+    let register_start = Utc.ymd(2022, 10, 24).and_hms(0, 0, 0);
+    let register_end = Utc.ymd(2022, 11, 7).and_hms(23, 59, 59);
     let now = Utc::now();
     if now >= register_end {
         2 // registration ended
@@ -306,6 +306,11 @@ fn rules_2021(session: Option<Session>) -> Template {
     Template::render("rules2021", &context(&session))
 }
 
+#[get("/rules/2022")]
+fn rules_2022(session: Option<Session>) -> Template {
+    Template::render("rules2022", &context(&session))
+}
+
 fn main() {
     let configuration = config::from_file("Config.toml").expect("failed to load config");
 
@@ -331,7 +336,8 @@ fn main() {
                 logout,
                 rules_2019,
                 rules_2020,
-                rules_2021
+                rules_2021,
+                rules_2022
             ],
         )
         .launch();
