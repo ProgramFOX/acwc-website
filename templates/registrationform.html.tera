@@ -3,7 +3,7 @@
 {% block title %}Home{% endblock title %}
 
 {% block content %}
-<div class="row justify-content-md-center"><h3>Please carefully read <a href="https://docs.google.com/document/d/1B8N2zDkjnpe-rhKOrC47Znhd7NmYbLbAG-mmsdQoihs/edit?usp=sharing">THE RULES</a> before entering!</h3></div>
+<div class="row justify-content-md-center"><h3>Please carefully read <a href="/rules/2023">THE RULES</a> before entering!</h3></div>
 <div class="row justify-content-md-center mt-3">
 <form method="POST" action="/register" id="regform">
   <div class="form-group">
