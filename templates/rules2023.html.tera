@@ -5,36 +5,36 @@
 
 {% block content %}
 
-<h2>3+ WC Rules (2023 edition)</h2>
+<h2>KotH WC Rules (2023 edition)</h2>
 <p>
  <em>-- <a href="https://lichess.org/@/PepsiNGaming">PepsiNGaming</a></em>
 </p>
 
-<p>Hey everyone, this year's format is the same as previous years, however, there are a few slight changes to the rules. If you have any questions, please message me or Francis920 on lichess (PepsiNGaming, Francis920) </p>
+<p>Hey everyone, welcome to the first KotH WC held on lichess. Registration starts on 7/17/23 0:00 UTC. If you have any questions, please message me or oruro on lichess (PepsiNGaming, oruro)</p>
 
 <p>No alts in the tournament. If you have a main account, use that. Your main account is defined as the account which you have primarily used on lichess over the past six months. It’s unfair to an opponent who is using a main account, as they won’t have equal access to as many past games, and hence won’t be able to prepare for the match as thoroughly. If you win the trophy, it cannot be transferred between accounts, so choose wisely.</p>
 
-<p>No accounts made after May 20th, 2023 can participate. We experienced some people trying to get multiple alts in previous editions of this tournament, and we don’t want that to happen in the future. Although you might say this is all detectable by the mods, it isn’t necessarily. This measure is a precaution. If you have a past account that was made before then, please reopen it to participate.</p>
+<p>No accounts made after May 20th, 2023 can participate. Although you might say this is all detectable by the mods, it isn’t necessarily. This measure is a precaution. If you have a past account that was made before then, please reopen it to participate. </p>
 
 <p>If a player has at least one account banned for cheating, they are not allowed to join. If these infractions happened 3 or more years ago, then you are still eligible.<br>
-At least 100 rated games of three check<br>
+At least 100 rated games of King of the Hill<br>
 Get all quiz questions on the form correct<br>
 Yes… There is a quiz, it’s short, and all the answers are easily found in the rules document, like, verbatim. This shouldn’t be hard at all.<br>
 If you don’t get all the questions correct, do it again.
 </p>
 
-<p>We will note that past rating manipulation history will not be checked, as it should not influence tournament gameplay. Of course, if you see someone in the tournament that you suspect has artificially changed their rating (or cheated), let us (PepsiNGaming, Francis920) know and use lichess.org/report as well.</p>
+<p>We will note that past rating manipulation history will not be checked, as it should not influence tournament gameplay. Of course, if you see someone in the tournament that you suspect has artificially changed their rating (or cheated), let us (PepsiNGaming, oruro) know and use lichess.org/report as well. </p>
 
 <p>These are the things the Lichess admins will check before allowing you to register (We are not the ones selecting or rejecting you). This does not mean that you can’t be removed from the list by us at some other point. For example, if you have any of the TDs blocked, or have DMs off even after the form has been done (in which you should have confirmed that you have undone these actions), we will be happy to kick you out of the tourney. We have limited time, and don’t want it wasted on people that don’t follow directions.</p>
 
 <p><strong>Time control</strong><br>
 3 + 2, RATED (If you don’t play the match rated, you will need to redo it)</p>
 
-<p><strong>Format:</strong> Bracketed tournament, double elimination. Winner of the bracket will go on to face VariantsOnly, the three-time reigning champion.</p>
+<p><strong>Format:</strong> Bracketed tournament, double elimination. Top two finishers will proceed to finals, with the winner remaining as the finalist for next year's edition.</p>
 
 <p><strong>Cheating and other infractions:</strong><br>
 
-Think your opponent cheated or has manipulated their rating? Use lichess.org/report, and DM us as well (PepsiNGaming, Francis920).</p>
+Think your opponent cheated or has manipulated their rating? Use lichess.org/report, and DM us as well (PepsiNGaming, oruro).</p>
 
 <p>My opponent has been abusive in DMs or in game chats. What should I do? Take screenshots, upload them to imgur, and DM us. Report to lichess mods as well. We don’t tolerate abuse of any kind, and will happily remove you from the tournament for it.</p>
 
@@ -53,8 +53,7 @@ Best of 10, 3 + 2 rated games. You can play all 10 games, or stop once someone h
 
 <p><strong>Finals</strong>: Same rules, only difference is that it's best of 20 (or first to 10.5).</p>
 
-<p>Thank you for reading! You have until 0:00 UTC on August 12th to register, after which pairings will be released and matches will begin. Feel free to DM any of us if you have questions, or better yet, join the discord at <a href="https://discord.gg/fMzZMTdtEa">https://discord.gg/fMzZMTdtEa</a> since we're hosting KotH WC as well, the server is both a 3+ and a KotH WC server.</p>
-
+<p>Thank you for reading! You have until 0:00 UTC on August 12th to register, after which pairings will be released and matches will begin. Feel free to DM any of us if you have questions, or better yet, join the discord at <a href="https://discord.gg/fMzZMTdtEa">https://discord.gg/fMzZMTdtEa</a> since we're hosting 3+ WC as well, the server is both a 3+ and a KotH WC server.</p>
 
 
 {% endblock content %}

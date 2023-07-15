@@ -3,5 +3,5 @@
 {% block title %}Home{% endblock title %}
 
 {% block content %}
-<h2 align="center">The 3+ WC has started!</h2>
+<h2 align="center">The KotH WC has started!</h2>
 {% endblock content %}

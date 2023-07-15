@@ -51,7 +51,7 @@ pub fn get_ratings(user: &str, http_client: &Client) -> Result<(), Box<dyn std::
     let mut req = Request::new(
         Method::GET,
         Url::parse(&format!(
-            "https://lichess.org/api/user/{}/perf/threeCheck",
+            "https://lichess.org/api/user/{}/perf/kingOfTheHill",
             user
         ))?,
     );
