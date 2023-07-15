@@ -320,7 +320,8 @@ fn main() {
                 admin,
                 admin_review,
                 admin_action,
-                logout
+                logout,
+                rules_2023
             ],
         )
         .launch();
