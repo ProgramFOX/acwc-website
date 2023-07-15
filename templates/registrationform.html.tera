@@ -17,7 +17,7 @@
   <div>
     <p>To verify that you have read and understood the rules, please answer the following quiz below.</p>
     <div class="form-group">
-      To participate in the tournament, all new accounts must be created before:
+      To participate in the tournament, all new accounts must be created before:<br>
       <label><input type="radio" name="q1" value="0"> March 5th, 2023</label><br>
       <label><input type="radio" name="q1" value="1"> April 15th, 2023</label><br>
       <label><input type="radio" name="q1" value="2"> May 20th, 2023</label><br>
