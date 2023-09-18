@@ -20,6 +20,7 @@ getrandom = "0.2"
 sha2 = "0.9"
 base64 = "0.13"
 urlencoding = "2.1"
+time = "0.1"
 
 [dependencies.rocket_contrib]
 version = "0.4.2"

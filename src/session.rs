@@ -1,4 +1,4 @@
-use chrono::Duration;
+use time::Duration;
 use rocket::http::{Cookie, Cookies, SameSite};
 use rocket::outcome::IntoOutcome;
 use rocket::request::{FromRequest, Outcome};
