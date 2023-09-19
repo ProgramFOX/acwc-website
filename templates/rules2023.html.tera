@@ -233,7 +233,7 @@
                 If no break is called, a rematch must be offered and accepted immediately.
                 Repeated failure in doing so leads to a forfeit.</li>
             <li>
-                If a player is offline at the time of the match, they have a 10 minute grace period to come online and start the game. The appearing player has to message the TDs that their opponent did not show up and again 10 minutes afterwards if the opponent still didn’t show up. The appearing player has the choice to reschedule or claim a win. If the appearing playing does not claim a win and rescheduling
+                If a player is offline at the time of the match, they have a 10 minute grace period to come online and start the game. The appearing player has to message the TDs that their opponent did not show up and again 10 minutes afterwards if the opponent still didn’t show up. The appearing player has the choice to reschedule or claim a win. If the appearing playing does not claim a win and rescheduling fails, the match will be forfeited in favor of the appearing player.
             </li>
             <li>If a player leaves the match while it's still ongoing, they get 10 minutes to come back
                 and this counts as their break. If they don't come back in time, their opponent gets the option
