@@ -51,7 +51,7 @@ fn home(
 ) -> Result<Template, Box<dyn std::error::Error>> {
     match registration_state() {
         0 => Ok(Template::render("home", &context(&maybe_session))),
-        1 => {
+        r => {
             if let Some(session) = &maybe_session {
                 let maybe_registration = db_client.find_registration(&session.lichess_id)?;
                 if let Some(registration) = maybe_registration {
@@ -69,22 +69,17 @@ fn home(
                     Ok(Template::render("registered", &ctx))
                 } else {
                     Ok(Template::render(
-                        "registrationform",
+                        if r == 1 { "registrationform" } else { "home_registrationclosed" },
                         &context(&maybe_session),
                     ))
                 }
             } else {
                 Ok(Template::render(
-                    "home_registrationopen",
+                    if r == 1 { "home_registrationopen" } else { "home_registrationclosed" },
                     &context(&maybe_session),
                 ))
             }
         }
-        2 => Ok(Template::render(
-            "home_registrationclosed",
-            &context(&maybe_session),
-        )),
-        _ => unreachable!(),
     }
 }
 
