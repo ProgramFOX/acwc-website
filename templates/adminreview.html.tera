@@ -21,7 +21,7 @@
 <p>"Special": {{ registration.special }}</p>
 <form method="POST">
 <div class="form-group">
-  <label for="optional-comment">TD comment:</label>
+  <label for="optional-comment">TD comment (visible to applicant):</label>
   <textarea class="form-control" id="optional-comment" name="optional-comment">{{ registration.td_comment }}</textarea>
   <div class="container">
   <div class="row justify-content-between mt-4">
