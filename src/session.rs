@@ -1,10 +1,10 @@
-use time::Duration;
 use rocket::http::{Cookie, Cookies, SameSite};
 use rocket::outcome::IntoOutcome;
 use rocket::request::{FromRequest, Outcome};
 use rocket::Request;
 use serde::{Deserialize, Serialize};
 use serde_json;
+use time::Duration;
 
 #[derive(Serialize, Deserialize)]
 pub struct Session {

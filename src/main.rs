@@ -32,8 +32,8 @@ fn context<'a>(maybe_session: &'a Option<Session>) -> HashMap<&'static str, &'a 
 }
 
 fn registration_state() -> i32 {
-    let register_start = Utc.ymd(2023, 9, 18).and_hms(0, 0, 0);
-    let register_end = Utc.ymd(2023, 9, 30).and_hms(23, 59, 59);
+    let register_start = Utc.ymd(2024, 9, 14).and_hms(0, 0, 0);
+    let register_end = Utc.ymd(2024, 10, 6).and_hms(23, 59, 59);
     let now = Utc::now();
     if now >= register_end {
         2 // registration ended
@@ -69,13 +69,21 @@ fn home(
                     Ok(Template::render("registered", &ctx))
                 } else {
                     Ok(Template::render(
-                        if r == 1 { "registrationform" } else { "home_registrationclosed" },
+                        if r == 1 {
+                            "registrationform"
+                        } else {
+                            "home_registrationclosed"
+                        },
                         &context(&maybe_session),
                     ))
                 }
             } else {
                 Ok(Template::render(
-                    if r == 1 { "home_registrationopen" } else { "home_registrationclosed" },
+                    if r == 1 {
+                        "home_registrationopen"
+                    } else {
+                        "home_registrationclosed"
+                    },
                     &context(&maybe_session),
                 ))
             }
@@ -218,7 +226,7 @@ fn logout(cookies: Cookies<'_>) -> Template {
 }
 
 fn is_admin(session: &Session, config: &State<Config>) -> bool {
-    session.lichess_id == config.tournament_director
+    config.tournament_director.contains(&session.lichess_id)
 }
 
 #[get("/admin")]
@@ -311,6 +319,11 @@ fn rules_2023(session: Option<Session>) -> Template {
     Template::render("rules2023", &context(&session))
 }
 
+#[get("/rules/2024")]
+fn rules_2024(session: Option<Session>) -> Template {
+    Template::render("rules2024", &context(&session))
+}
+
 fn main() {
     let configuration = config::from_file("Config.toml").expect("failed to load config");
 
@@ -339,6 +352,7 @@ fn main() {
                 rules_2021,
                 rules_2022,
                 rules_2023,
+                rules_2024,
             ],
         )
         .launch();
